@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Green Fresh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_cart">Giỏ hàng</string>
+    <string name="text_order_success">Đặt hàng thành công!</string>
+    <string name="content_order_success">Bạn đã đặt hàng thành công</string>
+    <string name="view_order">Xem đơn hàng</string>
+    <string name="continue_shopping">Tiếp tục mua sắm</string>
+    <string name="checkout">Thanh toán</string>
+    <string name="shipping_address">Địa chỉ nhận hàng</string>
+    <string name="order_list">danh sách đơn hàng</string>
+    <string name="choose_shipping">Chọn địa chỉ</string>
+    <string name="voucher">Mã giảm giá</string>
+    <string name="address">Địa chỉ</string>
+    <string name="please_add_address">Hãy chọn địa chỉ</string>
+    <string name="choose_shipping_type">Phương thức nhận hàng</string>
+    <string name="enter_code">Mã code</string>
+    <string name="amount">Số lượng</string>
+    <string name="shipping">Vận chuyển</string>
+    <string name="total">Tổng tiền</string>
+    <string name="remove_from_cart">Xoá khỏi giỏ hàng?</string>
+    <string name="sign_in">Đăng Nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="description">Thông tin chi tiết</string>
+    <string name="help_center">Trung tâm trợ giúp</string>
+    <string name="notification">Thông báo</string>
+    <string name="address_shipping">Địa chỉ nhận hàng</string>
+    <string name="information_delivery">Thông tin nhận hàng</string>
+    <string name="confirm_payment">Xác nhận thanh toán</string>
+    <string name="home">Trang chủ</string>
+    <string name="discover">Shop</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="profile">Tôi</string>
+</resources>

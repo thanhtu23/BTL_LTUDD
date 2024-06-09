@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:layout_margin="10dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/img_upload"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="56dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/upload_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spinKitView_upload"
+        style="@style/SpinKitView.Large.Wave"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="16dp"
+        app:SpinKit_Color="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upload"
+        app:layout_constraintEnd_toEndOf="@+id/img_upload"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="@+id/img_upload"
+        app:layout_constraintTop_toBottomOf="@+id/tv_progress" />
+
+    <TextView
+        android:id="@+id/btn_upload"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_bg_yes"
+        android:gravity="center"
+        android:text="Tải lên"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_upload"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Nhấn để chọn"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/img_upload"
+        app:layout_constraintEnd_toEndOf="@+id/img_upload"
+        app:layout_constraintStart_toStartOf="@+id/img_upload" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Tải ảnh"
+        android:textColor="#f10"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_upload"
+        app:layout_constraintStart_toStartOf="@+id/img_upload"
+        app:layout_constraintTop_toBottomOf="@+id/img_upload" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_dialog" />
+</androidx.constraintlayout.widget.ConstraintLayout>
